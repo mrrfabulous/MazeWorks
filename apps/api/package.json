@@ -1,0 +1,21 @@
+{
+  "name": "@mazeworks/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "node -e \"console.log('No tests yet in Phase 1')\"",
+    "lint": "node -e \"console.log('Lint setup pending')\"",
+    "format": "node -e \"console.log('Format setup pending')\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
